@@ -93,6 +93,7 @@
   },
   "snap": {
     "confinement": "classic",
+    "stagePackages": ["libnss3"],
     "publish": {
       "provider": "github",
       "channel": "${env.WORKFLOW_NAME}"
